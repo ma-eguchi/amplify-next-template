@@ -4,6 +4,8 @@ import "./../app/app.css";
 import { Amplify } from "aws-amplify";
 import outputs from "@/amplify_outputs.json";
 import "@aws-amplify/ui-react/styles.css";
+import "@aws-amplify/ui-react-storage/storage-browser-styles.css";
+
 import {
   createAmplifyAuthAdapter,
   createStorageBrowser,
